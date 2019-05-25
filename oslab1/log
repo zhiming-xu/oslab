@@ -1,0 +1,2 @@
+gcc -std=c99 -O2 -MMD -Wall -Werror -ggdb -fno-builtin -fno-pic -fno-stack-protector -fno-omit-frame-pointer -m32 -march=i386 -I./am -I./framework -I./include -c -o build/src/vfs.o src/vfs.c
+Makefile:31: recipe for target 'build/src/vfs.o' failed
